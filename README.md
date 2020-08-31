@@ -7,13 +7,12 @@
  1 - Download electron binary and extract it into "electron" folder in the project. 
  
  2 - change electron.py file in eel libirary in your env. for the windows platform to be 
-
-`
+```
  if sys.platform in ['win32', 'win64']:
         # It doesn't work well passing the .bat file to Popen, so we get the actual .exe
         bat_path = os.path.join(os.path.abspath(os.getcwd()),r'electron\electron.exe')
         return os.path.normpath(bat_path)
-`
+```
 
 now when you write `python main.py` it will work. 
 
