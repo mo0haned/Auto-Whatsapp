@@ -1,0 +1,19 @@
+{
+  "name": "spiritual-literature-withstand-4e85p",
+  "productName": "spiritual-literature-withstand-4e85p",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "mo0ha",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "eel": "^0.1.1",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "electron": "^9.2.1"
+  }
+}
